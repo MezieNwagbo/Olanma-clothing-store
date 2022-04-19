@@ -1,4 +1,49 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f5f5f5;
+  z-index: 9;
+}
+
+.nav {
+  padding: 10px 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  font-family: "Pacifico", cursive;
+  /* font-size: 50px; */
+  font-weight: 100;
+}
+
+.brand-logo {
+  height: 60px;
+}
+
+.search {
+  width: 500px;
+  display: flex;
+}
+
+.search-box {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #d1d1d1;
+  text-transform: capitalize;
+  background: none;
+  color: #a9a9a9;
+  outline: none;
 }
